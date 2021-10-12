@@ -1,0 +1,7 @@
+install anaconda https://www.anaconda.com/products/individual
+install vscode https://code.visualstudio.com/download
+bukalah vscode lalu klik terminal, lalu new terminal..
+ketikkan, pip install -r requirements.txt pada terminal
+lalu ketikkan, 
+python main.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel --input videos/example_01.mp4
+untuk menjalankan program
